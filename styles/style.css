@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.body-bg {
+  background-color: slategrey;
+}
+.header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.header-borderBottom {
+  border-bottom: 1px solid #1111112f;
+}
+.header__logo {
+  width: 48px;
+  position: absolute;
+  left: 24px;
+}
+.header__ul {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+.header__ul li {
+  padding: 0 2rem;
+  font-size: large;
+}
+.header__ul li:hover {
+  cursor: pointer;
+}
