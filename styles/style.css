@@ -25,16 +25,9 @@ body {
   position: absolute;
   left: 24px;
 }
-.header__ul {
+.header__nav ul {
   list-style-type: none;
   display: flex;
   gap: 8px;
   justify-content: space-between;
-}
-.header__ul li {
-  padding: 0 2rem;
-  font-size: large;
-}
-.header__ul li:hover {
-  cursor: pointer;
 }
